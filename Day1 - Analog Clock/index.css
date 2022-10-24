@@ -1,0 +1,43 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+#hours {
+  width: 1%;
+  height: 18%;
+  left: 49.5%;
+  top: 10.5vw;
+  opacity: 0.9;
+}
+#minutes {
+  width: 1%;
+  height: 20%;
+  left: 49.5%;
+  top: 10.5vw;
+  opacity: 0.5;
+}
+#second {
+  width: 1%;
+  height: 22%;
+  left: 49.5%;
+  top: 10.5vw;
+  opacity: 0.3;
+}
+#clockContainer {
+  margin: auto;
+  width: 40vw;
+  position: relative;
+  height: 40vw;
+  background-image: url("https://www.vippng.com/png/detail/19-199115_clock-without-hands-png.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#hours,
+#minutes,
+#second {
+  position: absolute;
+  background: black;
+  border-radius: 20%;
+  transform-origin: bottom;
+}
