@@ -1,0 +1,42 @@
+body {
+  margin: 2%;
+}
+img {
+  width: 50%;
+  margin: 0% 30%;
+  height: 40%;
+  border: 2px solid black;
+  justify-content: center;
+  align-items: center;
+}
+img:hover {
+  box-shadow: 2px 2px rgb(78, 73, 73);
+}
+.container {
+  max-width: 600px;
+  border: 2px solid lightgray;
+
+  margin: 20px;
+  padding: 4px;
+  max-height: 1000px;
+}
+.flash-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 2px solid green;
+}
+.btn {
+  color: red;
+  background-color: rgba(255, 255, 255, 0.712);
+  border: 2px solid red;
+  font-weight: bold;
+}
+.btn:hover {
+  box-shadow: 2px 2px rgb(215, 99, 99);
+}
+.read {
+  border: none;
+  background-color: white;
+  color: blue;
+}
